@@ -13,7 +13,7 @@ if (strlen($_SESSION['vpmsaid']==0)) {
  <html class="no-js" lang="">
 <head>
     
-    <title>VPMS - Admin Dashboard</title>
+    <title>Admin Dashboard</title>
    
 
     <link rel="apple-touch-icon" href="https://i.imgur.com/QRAUqs9.png">

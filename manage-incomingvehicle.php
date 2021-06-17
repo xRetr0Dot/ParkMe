@@ -14,7 +14,7 @@ if (strlen($_SESSION['vpmsaid']==0)) {
 <html class="no-js" lang="">
 <head>
    
-    <title>VPMS - Manage Incoming Vehicle</title>
+    <title>Manage Incoming Vehicle</title>
    
 
     <link rel="apple-touch-icon" href="https://i.imgur.com/QRAUqs9.png">

@@ -25,7 +25,7 @@ if (strlen($_SESSION['vpmsaid']==0)) {
 <html class="no-js" lang="">
 <head>
     
-    <title>VPMS - Admin Profile</title>
+    <title>Admin Profile</title>
    
 
     <link rel="apple-touch-icon" href="https://i.imgur.com/QRAUqs9.png">

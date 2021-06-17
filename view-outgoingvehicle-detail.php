@@ -14,7 +14,7 @@ if (strlen($_SESSION['vpmsaid']==0)) {
 <html class="no-js" lang="">
 <head>
    
-    <title>VPMS - View Vehicle Detail</title>
+    <title>View Vehicle Detail</title>
    
 
     <link rel="apple-touch-icon" href="https://i.imgur.com/QRAUqs9.png">

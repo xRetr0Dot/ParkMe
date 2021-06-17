@@ -36,7 +36,7 @@ if(isset($_POST['submit']))
 <html class="no-js" lang="">
 <head>
    
-    <title>VPMS - View Vehicle Detail</title>
+    <title>View Vehicle Detail</title>
    
 
     <link rel="apple-touch-icon" href="https://i.imgur.com/QRAUqs9.png">

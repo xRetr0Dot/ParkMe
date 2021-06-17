@@ -24,7 +24,7 @@ if(isset($_POST['submit']))
  <html class="no-js" lang="">
 <head>
     
-    <title>VPMS-Forgot Page</title>
+    <title>Forgot Page</title>
    
 
     <link rel="apple-touch-icon" href="https://i.imgur.com/QRAUqs9.png">

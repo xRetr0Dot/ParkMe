@@ -27,7 +27,7 @@ if(isset($_POST['submit']))
 <html class="no-js" lang="">
 <head>
     
-    <title>VPMS - Manage Category</title>
+    <title>Manage Category</title>
    
 
     <link rel="apple-touch-icon" href="https://i.imgur.com/QRAUqs9.png">

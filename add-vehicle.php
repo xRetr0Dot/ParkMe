@@ -34,7 +34,7 @@ echo "<script>window.location.href ='manage-incomingvehicle.php'</script>";
 <html class="no-js" lang="">
 <head>
     
-    <title>VPMS - Add Vehicle</title>
+    <title>Add Vehicle</title>
    
 
     <link rel="apple-touch-icon" href="https://i.imgur.com/QRAUqs9.png">

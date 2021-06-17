@@ -23,7 +23,7 @@ session_destroy();
  <html class="no-js" lang="">
 <head>
     
-    <title>VPMS-Reset Page</title>
+    <title>Reset Page</title>
    
 
     <link rel="apple-touch-icon" href="https://i.imgur.com/QRAUqs9.png">
