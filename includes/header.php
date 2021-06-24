@@ -1,14 +1,14 @@
 <div id="right-panel" class="right-panel">
-<header id="header" class="header">
-            <div class="top-left">
-                <div class="navbar-header">
-                    <a class="navbar-brand" href="dashboard.php"><img src="images/logo1.png" alt="Logo"></a>
-                    <a class="navbar-brand hidden" href="./"><img src="images/logo3.png" alt="Logo"></a>
+<header id="header" class="header" style="background-color: #2b2b2b">
+            <div class="top-left" style="background-color: #2b2b2b">
+                <div class="navbar-header" style="background-color: #2b2b2b">
+                    <a class="navbar-brand" href="dashboard.php"><img src="images/logo4.png" alt="Logo"></a>
+                    <!-- <a class="navbar-brand hidden" href="./"><img src="images/logo3.png" alt="Logo"></a> -->
                     <a id="menuToggle" class="menutoggle"><i class="fa fa-bars"></i></a>
                 </div>
             </div>
-            <div class="top-right">
-                <div class="header-menu">
+            <div class="top-right" style="background-color: #2b2b2b">
+                <div class="header-menu" style="background-color: #2b2b2b">
                     <div class="header-left">
                         
                         <div class="form-inline">

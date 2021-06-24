@@ -1,18 +1,25 @@
 <?php
 session_start();
 error_reporting(0);
-include('includes/dbconnection.php');
+// include('includes/dbconnection.php');
+include('includes/firebase_connection.php');
 
 if(isset($_POST['login']))
   {
     $adminuser=$_POST['username'];
-    $password=md5($_POST['password']);
-    $query=mysqli_query($con,"select ID from tbladmin where  UserName='$adminuser' && Password='$password' ");
-    $ret=mysqli_fetch_array($query);
-
-    if($ret>0){
-      $_SESSION['vpmsaid']=$ret['ID'];
-     header('location:dashboard.php');
+    //$password=md5($_POST['password']);
+    $password=($_POST['password']);
+    //$query=mysqli_query($con,"select ID from tbladmin where  UserName='$adminuser' && Password='$password' ");
+    //$ret=mysqli_fetch_array($query);
+    $ref = "tblAdmin"
+    $data = $database -> getReference($ref) -> getValue();
+    foreach($data as $key => $creds){
+        if($creds['AdminName'] == $adminuser && $creds['Password'] == $password){
+        //if($key>0){
+            $_SESSION['vpmsaid']=$creds['AdminName'];
+        //$_SESSION['vpmsaid']=$ret['ID'];
+        header('location:dashboard.php');
+        }
     }
     else{
     $msg="Invalid Details.";
@@ -23,7 +30,7 @@ if(isset($_POST['login']))
  <html class="no-js" lang="">
 <head>
     
-    <title>ParkMe Login</title> 
+    <title>VPMS-Login Page</title>
    
 
     <link rel="apple-touch-icon" href="https://i.imgur.com/QRAUqs9.png">
